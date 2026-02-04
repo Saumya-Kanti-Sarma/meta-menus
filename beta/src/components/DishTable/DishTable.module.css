@@ -1,0 +1,225 @@
+/* src/components/DishTable/DishTable.module.css */
+.restaurant_name {
+  text-align: center;
+  margin: 20px;
+  margin-top: 10px;
+}
+
+.tableContainer {
+  width: calc(100% - 20px);
+  overflow-x: auto;
+  padding: 0 10px;
+  overflow-y: auto;
+  position: relative;
+}
+
+.dishTable {
+  width: 100%;
+  border-collapse: separate;
+  box-shadow: var(--shadow);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.dishTable thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* Add shadow to sticky header */
+.dishTable th::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background-color: var(--border-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dishTable th {
+  background-color: var(--bg-table-header);
+  color: var(--text-light);
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+}
+
+.dishTable th:nth-child(2),
+.dishTable th:nth-child(3) {
+  text-align: center;
+}
+
+.dishTable td {
+  border: 1px solid #4e575f69;
+}
+
+.dishHeader {
+  width: 60%;
+}
+
+.priceHeader {
+  width: 20%;
+}
+
+.dishRow {
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.2s ease;
+}
+
+.dishRow:nth-child(even) {
+  /* background-color: #222222; */
+  background-color: #f1f1f1;
+}
+
+.dishRow:hover {
+  background-color: #f8f9fa;
+}
+
+.dishRow.unavailable {
+  opacity: 0.6;
+  background-color: #f5f5f5;
+}
+
+.dishCell {
+  padding: 1rem;
+}
+
+.rowLink {
+  display: contents;
+  /* Makes the link act as if it's not there for layout */
+  text-decoration: none;
+  color: inherit;
+}
+
+.dishName {
+  font-weight: 600;
+  color: #2c3e50;
+  font-size: 1rem;
+}
+
+
+.dishRow.unavailable .dishName {
+  color: #888;
+  text-decoration: line-through;
+}
+
+.priceCell {
+  padding: 1rem;
+  text-align: center;
+}
+
+.price {
+  font-weight: 600;
+  color: #2c3e50;
+  font-size: 1.1rem;
+}
+
+.unavailableText {
+  color: #e74c3c;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .dishTable {
+    font-size: 0.875rem;
+  }
+
+  .dishTable th,
+  .dishTable td {
+    padding: 0.75rem 0.5rem;
+  }
+
+  .dishHeader {
+    width: 50%;
+  }
+
+  .priceHeader {
+    width: 25%;
+  }
+}
+
+@media (max-width: 480px) {
+  .dishTable {
+    font-size: 0.75rem;
+  }
+
+  .dishTable th,
+  .dishTable td {
+    padding: 0.70rem 0.25rem;
+  }
+
+  .vegIndicator {
+    font-size: 0.7rem;
+    padding: 0.1rem 0.4rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .tableContainer {
+    color: #ffff;
+    background-color: #1a1a1a;
+  }
+
+  .dishTable {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .dishTable th {
+    background-color: #2d3748;
+    color: #e2e8f0;
+  }
+
+  .dishRow {
+    background-color: #2d2d2d;
+    border-bottom: 1px solid #404040;
+  }
+
+  .dishRow:nth-child(even) {
+    background-color: #222222;
+  }
+
+  .dishRow:hover {
+    background-color: #3d3d3d;
+  }
+
+  .dishRow.unavailable {
+    background-color: #2a2a2a;
+    opacity: 0.7;
+  }
+
+  .dishName {
+    color: #e2e8f0;
+  }
+
+  .dishCategory {
+    color: #a0aec0;
+  }
+
+  .vegIndicator {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .price {
+    color: #e2e8f0;
+  }
+
+  .unavailableText {
+    color: #fc8181;
+  }
+
+  /* Link styles for dark mode */
+  .dishLink:hover .dishName {
+    color: #63b3ed;
+  }
+}

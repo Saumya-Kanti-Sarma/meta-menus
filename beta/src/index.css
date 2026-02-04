@@ -1,0 +1,28 @@
+*,
+#root {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100dvh;
+}
+
+/* Global styles */
+[data-theme="light"] {
+  --bg-primary: #ffffff;
+  --text-primary: #2c3e50;
+  /* ... other light variables */
+}
+
+[data-theme="dark"] {
+  --bg-primary: #1a1a1a;
+  --text-primary: #e2e8f0;
+  /* ... other dark variables */
+}
+
+/* Then use these variables in your components */

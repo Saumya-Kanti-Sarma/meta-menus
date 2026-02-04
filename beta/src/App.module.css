@@ -1,0 +1,62 @@
+/* Container - Base mobile styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+/* Header & Navigation */
+.header {
+  display: flex;
+  flex-direction: column;
+  /* Stacked on mobile */
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 0;
+}
+
+/* Grid View - Mobile First (1 column) */
+.cart_view {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+/* --- Responsive Breakpoints --- */
+
+/* Tablet and up */
+@media (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    /* Side-by-side on desktop */
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .cart_view {
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 Columns */
+  }
+}
+
+/* Desktop and up */
+@media (min-width: 1024px) {
+  .cart_view {
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 Columns */
+  }
+}

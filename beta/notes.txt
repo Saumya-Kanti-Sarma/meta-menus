@@ -1,0 +1,22 @@
+{
+  "restaurant_details": {
+    "restaurant_name": "Gennie's Kitchen",
+    "estd": 1977,
+    "owner_name": "Saumya Kanti Sarma",
+    "contact": 9876545670,
+    "Address": "Vichumbe East Panvel Navi Mumbai 72201",
+    "email": "contact@gennieskitchen.com"
+  },
+  "menu": [
+      {
+        "dishName": "",
+        "category": "",
+        "is_veg": true | false,
+        "description": "",
+        "fullPlate": 685,
+        "halfPlate": 375,
+        "available": true,
+        "image": "./mock-img.png"
+      }
+  ]  
+}
