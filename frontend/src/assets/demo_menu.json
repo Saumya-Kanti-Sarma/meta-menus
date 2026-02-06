@@ -1,0 +1,914 @@
+{
+  "menu": [
+    {
+      "dishName": "Murg Mussalam",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "A luxurious Mughlai delicacy featuring whole or half chicken slow-cooked in a rich gravy made with yogurt, onions, tomatoes, cashew paste, cream, and aromatic spices including saffron and garam masala. Requires 60-90 minutes of preparation and cooking time. Garnished with fried onions and fresh coriander, this dish is known for its royal taste and creamy texture, perfect for special occasions.",
+      "fullPlate": 685,
+      "halfPlate": 375,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Durwa Spl Chicken",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "A house specialty featuring chicken cooked in a unique blend of spices that includes whole black pepper, ginger, garlic, and special Durwa masala. Cooked for approximately 45-55 minutes, this dish offers a balanced heat and aromatic flavor profile, simmered with onions, tomatoes, and fresh herbs. The gravy is medium-thick and pairs well with rice or Indian breads.",
+      "fullPlate": 660,
+      "halfPlate": 374,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Malwani Handi",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "A traditional coastal dish from Maharashtra where chicken is cooked in a clay pot with a spicy coconut-based gravy. Key ingredients include grated coconut, red chilies, coriander seeds, tamarind, and Malwani masala. Takes about 30-40 minutes to prepare, resulting in a robust, tangy, and slightly smoky flavor. Best enjoyed with bhakri or steamed rice.",
+      "fullPlate": 575,
+      "halfPlate": 335,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Fry Chicken Malwani Handi",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "A unique variation where chicken pieces are first fried to golden perfection before being cooked in the classic Malwani gravy. This double-cooking method takes about 40-50 minutes, giving the chicken a crispy exterior while keeping it juicy inside. The gravy remains spicy and coconut-rich, enhanced by the fried texture of the chicken.",
+      "fullPlate": 595,
+      "halfPlate": 355,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Lapeta",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "A specialty dish featuring chicken pieces wrapped in flavorful masala and cooked to perfection. The preparation includes a paste of onions, ginger, garlic, and special spices that coat the chicken. Takes about 35-45 minutes to cook. The result is a moderately spicy dish with well-blended flavors and a thick, clinging gravy that coats the chicken pieces beautifully.",
+      "fullPlate": 530,
+      "halfPlate": 290,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Butter Chicken With Bone",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "Classic butter chicken made with bone-in pieces for enhanced flavor. Chicken is marinated in yogurt and spices, then cooked in a creamy tomato-based gravy enriched with butter, cream, cashew paste, and mild spices. Takes 30-40 minutes to prepare. The bones add depth to the gravy, making it richer than the boneless version while maintaining the signature creamy texture.",
+      "fullPlate": 450,
+      "halfPlate": 260,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Butter Chicken Boneless",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "Boneless chicken pieces cooked in a creamy, tomato-based gravy enriched with butter, cream, cashew paste, and mild spices like garam masala and kasuri methi. The chicken is first marinated in yogurt and spices, then grilled or pan-fried before being simmered in the gravy for 15-20 minutes. It's smooth, rich, and mildly sweet—perfect with naan or rice.",
+      "fullPlate": 430,
+      "halfPlate": 240,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Smoke (Chef Special)",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "A chef's special preparation where chicken is cooked with a distinctive smoky flavor. Achieved through the dum cooking method or charcoal smoking, this dish includes ingredients like ginger, garlic, onions, tomatoes, and special smoke-infused spices. Takes about 40-50 minutes to prepare. The smoky aroma complements the rich gravy, creating a unique dining experience.",
+      "fullPlate": 270,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Sauji (Spicy)",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "A fiery chicken preparation originating from Himachal Pradesh, known for its intense heat and bold flavors. Made with a special blend of Sauji masala including red chilies, coriander, and other spices. Cooked for approximately 25-35 minutes with minimal gravy. The dish is very spicy, dryish in texture, and perfect for those who enjoy intense heat in their food.",
+      "fullPlate": 220,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Kharda Masala",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "A Maharashtrian specialty featuring coarsely ground spices (kharda) that give the dish its name and texture. Includes whole and crushed spices like black pepper, coriander seeds, and dried red chilies. Takes about 30-40 minutes to prepare. The coarse texture of the spices provides bursts of flavor and moderate heat, balanced with onions, tomatoes, and fresh herbs.",
+      "fullPlate": 220,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Afghani Chicken Malai Masala",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "A rich and creamy Afghan-inspired chicken dish made with malai (cream), yogurt, cashew paste, and mild spices. Flavored with cardamom, saffron, and rose water. Takes about 35-45 minutes to prepare. The chicken is tender and cooked in a white, creamy gravy with subtle sweetness and aromatic flavors, making it less spicy but extremely flavorful.",
+      "fullPlate": 235,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Mughlai (Boneless)",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "A royal Mughlai preparation featuring boneless chicken in a rich, aromatic gravy. Made with yogurt, cream, cashew paste, almonds, and a blend of Mughlai spices including saffron and mace. Takes about 40-50 minutes to cook. The dish is mildly spiced but rich in flavor, with a creamy texture and garnished with silver leaf and fried nuts for authenticity.",
+      "fullPlate": 250,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Bhuna (Boneless)",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "Boneless chicken pieces cooked in the bhuna style where spices are roasted in oil before adding the chicken. Features onions, ginger, garlic, tomatoes, and a blend of whole and ground spices. Takes about 30-40 minutes to prepare. The slow-cooking technique results in a thick, clinging gravy with intense flavors and a slightly dry consistency.",
+      "fullPlate": 230,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Kolhapuri",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "A fiery and aromatic dish from Kolhapur, Maharashtra, known for its robust spice blend. Made with a paste of dried red chilies, coconut, coriander, cumin, and sesame seeds, cooked with chicken, onions, and tomatoes. It takes about 25-35 minutes to prepare and has a thick, intense gravy with a lingering heat, often garnished with fresh coriander.",
+      "fullPlate": 210,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Leg Masala",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "Special preparation focusing on chicken legs cooked in a flavorful masala. The legs are marinated with yogurt and spices before being cooked with onions, tomatoes, ginger, garlic, and a blend of ground spices. Takes about 40-50 minutes to ensure the meat becomes tender and absorbs all the flavors. The gravy is medium-thick and well-balanced.",
+      "fullPlate": 220,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Sukka",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "A dry coastal preparation from Karnataka and Maharashtra where chicken is cooked with grated coconut, red chilies, coriander seeds, and other spices until almost dry. Takes about 25-35 minutes to prepare. The dish has minimal gravy, allowing the spices to coat each piece of chicken, resulting in a flavorful, slightly crisp exterior with tender meat inside.",
+      "fullPlate": 210,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Pahadi Masala",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "Inspired by the flavors of the Himalayan foothills, this dish features chicken cooked with mountain herbs and spices. Includes ingredients like jakhiya, bhangjeera, and other regional spices along with ginger, garlic, and onions. Takes about 35-45 minutes to prepare. The flavors are earthy, aromatic, and moderately spicy, with a rustic appeal.",
+      "fullPlate": 220,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Rara",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "A North Indian specialty that combines both minced chicken (keema) and chicken pieces in a single dish. Cooked with onions, tomatoes, ginger, garlic, and a blend of spices. Takes about 40-50 minutes to prepare. The minced meat thickens the gravy while the chicken pieces provide texture, creating a hearty and satisfying dish with complex flavors.",
+      "fullPlate": 250,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Tikka Masala (Boneless)",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "Boneless chicken tikka pieces served in a rich, creamy tomato-based gravy. The chicken is first marinated in yogurt and spices, then grilled before being added to the gravy made with tomatoes, cream, butter, and special masala. Takes about 30-40 minutes total. The dish has a smoky flavor from the grilled chicken and a creamy, mildly spiced gravy.",
+      "fullPlate": 220,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Keema (Boneless)",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "Minced chicken cooked with onions, tomatoes, ginger, garlic, and a blend of spices including garam masala, turmeric, and chili powder. Takes about 25-35 minutes to prepare. The keema is cooked until dry but moist, with peas often added for texture. It's versatile and can be enjoyed with rice, bread, or as a stuffing for parathas.",
+      "fullPlate": 230,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Lababdar Chicken",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "A rich and creamy chicken preparation where the meat is cooked in a luscious gravy made with tomatoes, cashew paste, cream, butter, and mild spices. Takes about 35-45 minutes to prepare. The dish is known for its velvety texture and balanced flavors—not too spicy but full of aromatic richness, with a hint of sweetness from cashews and cream.",
+      "fullPlate": 230,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Jalfrezi",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "An Indo-Chinese influenced dish featuring chicken cooked with bell peppers, onions, tomatoes, and green chilies in a thick, spicy sauce. The preparation involves stir-frying the vegetables and chicken with ginger, garlic, and soy sauce-inspired spices. Takes about 25-35 minutes. The dish is moderately spicy with a semi-dry consistency and crunchy vegetables.",
+      "fullPlate": 230,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Masala",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "A classic Indian chicken curry made with a balanced blend of everyday spices. Includes onions, tomatoes, ginger, garlic, turmeric, coriander powder, and garam masala. Takes about 30-40 minutes to prepare. This versatile dish has a medium-thick gravy, moderate spice level, and works well with both rice and various Indian breads.",
+      "fullPlate": 195,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Curry",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "A simple, traditional chicken curry with a thinner gravy compared to masala preparations. Made with basic spices like turmeric, chili powder, coriander, and cumin. Takes about 25-35 minutes to prepare. The gravy is lighter but flavorful, perfect for pouring over rice. This is a homestyle preparation that focuses on comfort and simplicity.",
+      "fullPlate": 185,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Liver Sukka",
+      "category": "Chicken Gravy",
+      "is_veg": false,
+      "description": "Chicken liver cooked in the dry sukka style with grated coconut, red chilies, and spices. The liver is first cleaned and marinated, then cooked quickly with onions, ginger, garlic, and the coconut-spice mixture. Takes about 20-30 minutes. The dish is dry, flavorful, and slightly crisp on the edges, with the liver remaining tender inside.",
+      "fullPlate": 170,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Mutton Malwani Handi",
+      "category": "Mutton Gravy",
+      "is_veg": false,
+      "description": "Tender mutton pieces slow-cooked in a traditional Malwani coconut and spice gravy. The masala includes roasted coconut, red chilies, poppy seeds, and Malwani garam masala, cooked with tamarind for tanginess. Simmered in a handi for 60-75 minutes until the mutton is fall-off-the-bone tender, resulting in a deeply flavorful, spicy-sour coastal curry.",
+      "fullPlate": 790,
+      "halfPlate": 430,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Mutton Kadal",
+      "category": "Mutton Gravy",
+      "is_veg": false,
+      "description": "A unique mutton preparation where the meat is cooked with lentils or chickpeas (chana) in a flavorful gravy. Includes onions, tomatoes, ginger, garlic, and a blend of spices. Takes about 60-70 minutes to ensure both the mutton and lentils are perfectly cooked. The combination creates a hearty, protein-rich dish with a thick, satisfying texture.",
+      "fullPlate": 320,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Mutton Kheema",
+      "category": "Mutton Gravy",
+      "is_veg": false,
+      "description": "Minced mutton cooked with onions, tomatoes, ginger, garlic, green peas, and a blend of ground spices. Takes about 40-50 minutes to prepare. The kheema is cooked until the moisture evaporates, leaving a flavorful, slightly dry preparation. It's versatile and can be served with rice, bread, or used as a stuffing for various Indian dishes.",
+      "fullPlate": 350,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Mutton Adrak",
+      "category": "Mutton Gravy",
+      "is_veg": false,
+      "description": "A ginger-forward mutton curry where fresh ginger is the star ingredient. Made with generous amounts of ginger paste and julienned ginger, along with onions, garlic, and basic spices. Takes about 60-70 minutes to cook. The ginger provides a warm, slightly sharp flavor that complements the richness of the mutton, creating a uniquely aromatic dish.",
+      "fullPlate": 320,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Mutton Tawa",
+      "category": "Mutton Gravy",
+      "is_veg": false,
+      "description": "Mutton pieces cooked on a flat griddle (tawa) with onions, bell peppers, tomatoes, and spices. The high-heat cooking method takes about 40-50 minutes and gives the meat a slightly charred, smoky flavor. The gravy is minimal, allowing the spices to coat the mutton pieces directly. Served sizzling hot, often with onions and lemon wedges.",
+      "fullPlate": 310,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Mutton Kolhapuri",
+      "category": "Mutton Gravy",
+      "is_veg": false,
+      "description": "A spicy mutton preparation from Kolhapur, Maharashtra, featuring a robust red chili and coconut-based gravy. Made with dried red chilies, coconut, sesame seeds, and Kolhapuri masala. Takes about 60-75 minutes to cook. The dish is intensely spicy with a thick, clinging gravy that packs a flavorful punch, perfect for spice lovers.",
+      "fullPlate": 310,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Mutton Sukka",
+      "category": "Mutton Gravy",
+      "is_veg": false,
+      "description": "A dry mutton preparation where the meat is cooked with grated coconut, red chilies, and spices until almost all moisture evaporates. Takes about 50-60 minutes. The slow cooking allows the mutton to become tender while absorbing all the spice flavors. The final dish is dry, flavorful, and slightly crisp on the edges, with tender meat inside.",
+      "fullPlate": 310,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Mutton Rogan Josh",
+      "category": "Mutton Gravy",
+      "is_veg": false,
+      "description": "A classic Kashmiri mutton curry known for its deep red color and aromatic flavor. Made with tender mutton cooked in a gravy of yogurt, browned onions, ginger-garlic paste, and a blend of spices like fennel, dried ginger, and Kashmiri red chilies. Slow-cooked for 60-80 minutes until the meat is succulent and the oil separates, giving it a rich, fragrant finish.",
+      "fullPlate": 320,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Mutton Masala",
+      "category": "Mutton Gravy",
+      "is_veg": false,
+      "description": "A standard mutton curry with a well-balanced blend of spices. Includes onions, tomatoes, ginger, garlic, turmeric, coriander powder, and garam masala. Takes about 60-70 minutes to ensure the mutton becomes tender. The gravy is medium-thick, moderately spicy, and versatile enough to pair with both rice and various Indian breads.",
+      "fullPlate": 290,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Bangda",
+      "category": "Fish",
+      "is_veg": false,
+      "description": "Mackerel pieces cooked in a spicy, tangy coconut-based gravy typical of coastal regions. Includes grated coconut, red chilies, tamarind, and curry leaves. The fish is added to the simmering gravy and cooked for 10-15 minutes. The curry is flavorful with a balance of heat and sourness. Price varies based on fish size and availability.",
+      "fullPlate": 450,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Bombil",
+      "category": "Fish",
+      "is_veg": false,
+      "description": "Bombay duck cooked in a light, flavorful curry with onions, tomatoes, and basic spices. Due to its delicate texture, the fish is added towards the end and cooked briefly for 5-10 minutes. The curry is typically mild to medium in spice to complement the fish's subtle flavor. Availability and pricing depend on the daily catch.",
+      "fullPlate": 452,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Surmai",
+      "category": "Fish",
+      "is_veg": false,
+      "description": "Kingfish pieces cooked in a medium-spiced curry with onions, tomatoes, ginger, garlic, and coconut milk or paste. Takes about 20-25 minutes to prepare. The firm flesh of kingfish holds up well in curry without disintegrating. The gravy is aromatic and moderately thick. Price varies based on the size and availability of the fish.",
+      "fullPlate": 421,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Pomfret",
+      "category": "Fish",
+      "is_veg": false,
+      "description": "Pomfret cooked in a light, flavorful curry that highlights the fish's delicate taste. Made with coconut, green chilies, coriander, and mild spices. The fish is added to the simmering gravy and cooked for 10-15 minutes. The curry is typically white or light yellow, mildly spiced, and aromatic. Availability and price depend on fish size.",
+      "fullPlate": 128,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Prawns",
+      "category": "Fish",
+      "is_veg": false,
+      "description": "Fresh prawns cooked in a spicy, coconut-based curry typical of coastal regions. Ingredients include grated coconut, red chilies, tamarind, mustard seeds, and curry leaves. The prawns are added to the simmering gravy and cooked for 10-15 minutes until tender. The curry is tangy, aromatic, and best enjoyed with steamed rice.",
+      "fullPlate": 144,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Chilli Noodle/Rice",
+      "category": "Chicken Chinese Rice",
+      "is_veg": false,
+      "description": "Spicy Indo-Chinese favorite featuring tender chicken pieces stir-fried with bell peppers, onions, garlic, green chilies, and soy-chili sauces. Tossed with hakka noodles or rice for a fiery, tangy kick. Quick wok preparation keeps veggies crunchy. Average cooking time: 20-25 minutes. Garnish with spring onions. Popular street-style dish, medium to high spice level.",
+      "fullPlate": 250,
+      "halfPlate": 170,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Combination Noodles/Rice",
+      "category": "Chicken Chinese Rice",
+      "is_veg": false,
+      "description": "Mixed Indo-Chinese stir-fry with chicken strips, assorted vegetables like carrots, cabbage, beans, and capsicum in a savory soy-based sauce. Combined with noodles or fried rice for balanced flavors. Mild to medium spice. Fast stir-fry method. Average cooking time: 15-20 minutes. Ideal for those wanting variety in one plate.",
+      "fullPlate": 190,
+      "halfPlate": 120,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Fried Rice/Hakka Noodles",
+      "category": "Chicken Chinese Rice",
+      "is_veg": false,
+      "description": "Classic Indo-Chinese chicken fried rice or hakka noodles with shredded chicken, scrambled egg bits, spring onions, carrots, and soy sauce. Wok-tossed for smoky aroma. Simple yet flavorful. Average cooking time: 15-20 minutes using day-old rice/noodles. Great comfort food option.",
+      "fullPlate": 190,
+      "halfPlate": 120,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Hong Kong Rice/Noodles",
+      "category": "Chicken Chinese Rice",
+      "is_veg": false,
+      "description": "Indo-Chinese style with crispy fried chicken tossed in a light, garlicky sauce with veggies and noodles or rice. Hong Kong influence brings subtle sweetness. Quick high-heat stir-fry. Average cooking time: 20 minutes. Crunchy texture from veggies.",
+      "fullPlate": 200,
+      "halfPlate": 130,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Manchurian Noodles/Rice",
+      "category": "Chicken Chinese Rice",
+      "is_veg": false,
+      "description": "Popular Indo-Chinese dish: battered and fried chicken in tangy, garlicky Manchurian sauce with soy, chili, ginger, garlic, and veggies. Served over noodles or rice. Spicy and saucy. Average cooking time: 25-30 minutes including frying. Restaurant favorite with bold flavors.",
+      "fullPlate": 250,
+      "halfPlate": 170,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Schezwan Noodles/Rice",
+      "category": "Chicken Chinese Rice",
+      "is_veg": false,
+      "description": "Fiery Indo-Chinese preparation using Schezwan sauce (red chilies, garlic) with chicken, veggies, and noodles or rice. Spicy, tangy, and aromatic. High-heat toss for perfect integration. Average cooking time: 20-25 minutes. For spice lovers.",
+      "fullPlate": 210,
+      "halfPlate": 140,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Triple Fried Rice",
+      "category": "Chicken Chinese Rice",
+      "is_veg": false,
+      "description": "Loaded Indo-Chinese specialty mixing chicken, shrimp/prawns, eggs, and veggies in triple-fried rice style. Rich sauces and bold spices. Very filling. Average cooking time: 25-30 minutes. Often topped with fried egg.",
+      "fullPlate": 260,
+      "halfPlate": 175,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Singapuri Rice/Noodles",
+      "category": "Chicken Chinese Rice",
+      "is_veg": false,
+      "description": "Singapore-style Indo-Chinese with chicken, thin noodles or rice, curry leaves, chili, and spices for aromatic twist. Milder heat with unique flavors. Quick stir-fry. Average cooking time: 20 minutes.",
+      "fullPlate": 210,
+      "halfPlate": 140,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Burnt Garlic Rice/Noodles",
+      "category": "Chicken Chinese Rice",
+      "is_veg": false,
+      "description": "Smoky Indo-Chinese dish highlighting burnt garlic flavor with chicken, soy sauce, veggies, and rice or noodles. Intense aroma from charred garlic. Average cooking time: 20-25 minutes. Unique savory profile.",
+      "fullPlate": 230,
+      "halfPlate": 150,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Pot Rice",
+      "category": "Chicken Chinese Rice",
+      "is_veg": false,
+      "description": "One-pot Indo-Chinese style chicken rice cooked with veggies, sauces, and mild spices. Comforting and juicy. Average cooking time: 25-30 minutes. Simple yet tasty family-style dish.",
+      "fullPlate": 260,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Egg Fried Rice/Noodles",
+      "category": "Chicken Chinese Rice",
+      "is_veg": false,
+      "description": "Simple Indo-Chinese egg fried rice or noodles with scrambled eggs, veggies, spring onions, and soy sauce. Light and quick. Average cooking time: 15 minutes. Vegetarian-friendly with egg protein.",
+      "fullPlate": 130,
+      "halfPlate": 90,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Egg Schezwan Fried Rice/Noodles",
+      "category": "Chicken Chinese Rice",
+      "is_veg": false,
+      "description": "Spicy Schezwan sauce version with eggs, veggies, and rice or noodles. Fiery red color and heat. Average cooking time: 15-20 minutes. Bold and satisfying.",
+      "fullPlate": 140,
+      "halfPlate": 95,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Mix Fried Rice",
+      "category": "Chicken Chinese Rice",
+      "is_veg": false,
+      "description": "Assorted mix of chicken, prawns, eggs, and veggies in fried rice. Flavor-packed Indo-Chinese combo. Average cooking time: 20-25 minutes. Great for variety seekers.",
+      "fullPlate": 250,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Prawn Schezwan Noodle/Rice",
+      "category": "Chicken Chinese Rice",
+      "is_veg": false,
+      "description": "Succulent prawns in spicy Schezwan sauce with noodles or rice and veggies. Hot and flavorful seafood twist. Average cooking time: 20-25 minutes. Premium option.",
+      "fullPlate": 350,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Prawns Noodles/Rice",
+      "category": "Chicken Chinese Rice",
+      "is_veg": false,
+      "description": "Stir-fried prawns with noodles or rice, veggies, and classic Indo-Chinese sauces. Fresh and savory. Average cooking time: 20 minutes.",
+      "fullPlate": 345,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Prawns Schezwan Fried Rice/Noodles",
+      "category": "Chicken Chinese Rice",
+      "is_veg": false,
+      "description": "Prawns tossed in fiery Schezwan sauce with fried rice or noodles. Spicy seafood delight. Average cooking time: 20-25 minutes.",
+      "fullPlate": 340,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken American Chop Suey",
+      "category": "Chicken Chinese Rice",
+      "is_veg": false,
+      "description": "Crispy fried noodles topped with sweet-spicy chicken and veggie sauce in American chop suey style. Fusion texture. Average cooking time: 25 minutes. Crunchy and saucy.",
+      "fullPlate": 260,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Thousand Rice/Noodles",
+      "category": "Chicken Chinese Rice",
+      "is_veg": false,
+      "description": "Special chicken preparation with thousand island-inspired creamy sauce over rice or noodles. Unique and rich. Average cooking time: 25 minutes.",
+      "fullPlate": 320,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Special Veg Thali",
+      "category": "Thali",
+      "is_veg": true,
+      "description": "Complete vegetarian thali with chapati/roti, mixed vegetable curry, dal, rice, salad, and accompaniments. Balanced Maharashtrian-style meal. Average preparation time: 30-40 minutes. Nutritious and filling.",
+      "fullPlate": 180,
+      "halfPlate": 170,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Mini Veg Thali",
+      "category": "Thali",
+      "is_veg": true,
+      "description": "Smaller portion vegetarian thali including chapati, veggies, dal, rice, and sides. Perfect for light meals. Average preparation time: 25-35 minutes. Simple and wholesome.",
+      "fullPlate": 120,
+      "halfPlate": 110,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Egg Kolhapuri Thali",
+      "category": "Thali",
+      "is_veg": false,
+      "description": "Kolhapuri-style spicy egg curry thali with chapati/roti, rice, and sides. Rich with coconut, red chilies, and spices. Average cooking time: 35-45 minutes. Fiery Maharashtrian flavors.",
+      "fullPlate": 260,
+      "halfPlate": 250,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Kolhapuri Thali",
+      "category": "Thali",
+      "is_veg": false,
+      "description": "Authentic Kolhapuri chicken curry thali featuring tender chicken in spicy coconut-onion masala with red chilies, garam masala, served with chapati/roti, rice, and sides. Bold and aromatic. Average cooking time: 40-50 minutes. Signature Maharashtrian heat.",
+      "fullPlate": 260,
+      "halfPlate": 180,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Mutton Kolhapuri Thali",
+      "category": "Thali",
+      "is_veg": false,
+      "description": "Rich mutton curry in Kolhapuri style with intense spices, coconut, and onions. Served as full thali with breads, rice, and accompaniments. Average cooking time: 45-60 minutes (slow-cooked for tenderness). Hearty and spicy.",
+      "fullPlate": 350,
+      "halfPlate": 340,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Bombil Thali",
+      "category": "Thali",
+      "is_veg": false,
+      "description": "Bombil (Bombay duck) fish thali with spiced curry or fry, chapati/roti, rice, and sides. Coastal Maharashtrian specialty. Price as per size. Average preparation time: 30-40 minutes.",
+      "fullPlate": 400,
+      "halfPlate": 200,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Prawns Thali",
+      "category": "Thali",
+      "is_veg": false,
+      "description": "Spicy prawns curry thali with chapati, rice, and traditional sides. Seafood delight. Price as per size. Average cooking time: 25-35 minutes.",
+      "fullPlate": 400,
+      "halfPlate": 200,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Surmai Thali",
+      "category": "Thali",
+      "is_veg": false,
+      "description": "Kingfish (Surmai) thali with curry or grilled preparation, breads, rice, and sides. Premium coastal dish. Price as per size. Average preparation time: 35-45 minutes.",
+      "fullPlate": 400,
+      "halfPlate": 200,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Pomfret Thali",
+      "category": "Thali",
+      "is_veg": false,
+      "description": "Pomfret fish thali featuring curry, fry, or masala preparation with chapati/roti, rice, and accompaniments. Classic Maharashtrian seafood. Price as per size. Average cooking time: 35-45 minutes.",
+      "fullPlate": 400,
+      "halfPlate": 200,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Tawa Chicken Pulav",
+      "category": "Biryani & Pulav",
+      "is_veg": false,
+      "description": "Flavorful one-pan chicken pulao cooked on a tawa (griddle) with tender chicken pieces, basmati rice, aromatic spices like cumin, cardamom, cloves, onions, tomatoes, mint, and coriander. Semi-dry with a smoky touch from high-heat cooking. Prepares in about 30-45 minutes; comforting, mildly spiced Indian rice dish perfect as a main course.",
+      "fullPlate": 200,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Dum Biryani",
+      "category": "Biryani & Pulav",
+      "is_veg": false,
+      "description": "Traditional dum-style chicken biryani where marinated chicken is layered with partially cooked basmati rice, fried onions, saffron, mint, coriander, ghee, and whole spices. Sealed and slow-cooked on low heat for infused aromas. Takes 60-90 minutes; rich, aromatic, and juicy with layered flavors – a classic festive favorite.",
+      "fullPlate": 230,
+      "halfPlate": 150,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Chicken Tikka Biryani",
+      "category": "Biryani & Pulav",
+      "is_veg": false,
+      "description": "Grilled chicken tikka pieces layered with basmati rice, yogurt marinade spices (tandoori masala, ginger-garlic, red chili), onions, mint, and saffron. Dum-cooked for smoky flavor. Preparation around 50-70 minutes; bold, tangy, and tandoori-infused biryani variant with tender, charred chicken.",
+      "fullPlate": 240,
+      "halfPlate": 155,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Hyderabadi Chicken Biryani",
+      "category": "Biryani & Pulav",
+      "is_veg": false,
+      "description": "Authentic Hyderabadi kacchi style with raw marinated chicken layered with basmati rice, yogurt, saffron, fried onions (birista), mint, ghee, and special garam masala. Slow-cooked dum method. Takes 60-90 minutes; intensely aromatic, spicy, and royal with deep flavors and tender meat.",
+      "fullPlate": 250,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Tandoori Chicken Biryani",
+      "category": "Biryani & Pulav",
+      "is_veg": false,
+      "description": "Tandoor-grilled chicken marinated in yogurt and spices layered with fragrant basmati rice, saffron, herbs, and onions in dum style. Smoky and spicy profile. Cooks in 50-75 minutes; fusion of tandoori and biryani elements for a bold, restaurant-style experience.",
+      "fullPlate": 240,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Egg Biryani",
+      "category": "Biryani & Pulav",
+      "is_veg": false,
+      "description": "Boiled eggs marinated lightly and layered with basmati rice, spices, fried onions, mint, coriander, and ghee in dum pot. Mildly spiced with aromatic notes. Ready in 40-60 minutes; simple, protein-packed vegetarian-friendly biryani with soft eggs and flavorful rice.",
+      "fullPlate": 195,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Prawns Biryani",
+      "category": "Biryani & Pulav",
+      "is_veg": false,
+      "description": "Succulent prawns marinated with spices layered with basmati rice, saffron, fried onions, mint, and coastal flavors. Dum-cooked for aroma. Takes 45-70 minutes; premium seafood biryani with juicy prawns and fragrant rice – market price may vary.",
+      "fullPlate": 250,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Mushroom Biryani",
+      "category": "Biryani & Pulav",
+      "is_veg": true,
+      "description": "Fresh mushrooms layered with basmati rice, spices, yogurt, onions, tomatoes, mint, and ghee in dum style. Earthy and aromatic. Prepares in 45-60 minutes; hearty vegetarian biryani with meaty mushroom texture and balanced spices.",
+      "fullPlate": 210,
+      "halfPlate": 145,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Mutton Biryani",
+      "category": "Biryani & Pulav",
+      "is_veg": false,
+      "description": "Tender mutton pieces marinated and layered with basmati rice, saffron, fried onions, yogurt, garam masala, and herbs. Slow dum-cooked. Takes 70-100 minutes; rich, succulent, and intensely flavored premium biryani.",
+      "fullPlate": 370,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Paneer Biryani",
+      "category": "Biryani & Pulav",
+      "is_veg": true,
+      "description": "Soft paneer cubes layered with basmati rice, mild spices, yogurt, onions, mint, coriander, and ghee. Dum-cooked for aroma. Ready in 45-60 minutes; creamy, mildly spiced vegetarian biryani with rich paneer texture.",
+      "fullPlate": 200,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Paneer Tikka Biryani",
+      "category": "Biryani & Pulav",
+      "is_veg": true,
+      "description": "Grilled paneer tikka pieces layered with basmati rice, tandoori spices, yogurt marinade, onions, mint, and saffron in dum pot. Smoky and tangy. Takes 50-70 minutes; popular vegetarian variant with charred paneer flavor.",
+      "fullPlate": 215,
+      "halfPlate": 145,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Veg Dum Biryani",
+      "category": "Biryani & Pulav",
+      "is_veg": true,
+      "description": "Mixed vegetables (potatoes, carrots, beans, peas, cauliflower) layered with basmati rice, spices, yogurt, fried onions, mint, and ghee. Dum-cooked. Prepares in 45-70 minutes; wholesome, aromatic vegetarian biryani full of garden-fresh flavors.",
+      "fullPlate": 180,
+      "halfPlate": 125,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Mushroom Fried Rice/Noodles",
+      "category": "Veg Chinese Rice/Noodles",
+      "is_veg": true,
+      "description": "Stir-fried rice or noodles with fresh mushrooms, mixed vegetables (carrots, beans, cabbage, bell peppers), garlic, soy sauce, and pepper. High-heat tossed for smoky flavor. Ready in 15-25 minutes; earthy, savory, and light Indo-Chinese vegetarian option.",
+      "fullPlate": 190,
+      "halfPlate": 125,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Mushroom Schezwan Fried Rice/Noodles",
+      "category": "Veg Chinese Rice/Noodles",
+      "is_veg": true,
+      "description": "Fiery Schezwan sauce-coated mushrooms stir-fried with rice or noodles, veggies, garlic, ginger, and chili paste. Very spicy and tangy. Cooks in 15-25 minutes; bold, aromatic vegetarian dish for heat lovers.",
+      "fullPlate": 210,
+      "halfPlate": 135,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Paneer Chilli Rice/Noodles",
+      "category": "Veg Chinese Rice/Noodles",
+      "is_veg": true,
+      "description": "Crispy or soft paneer tossed in spicy chili sauce with rice or noodles, bell peppers, onions, garlic, soy, and green chilies. Indo-Chinese favorite. Takes 20-30 minutes; tangy, spicy, and satisfying with paneer protein.",
+      "fullPlate": 240,
+      "halfPlate": 185,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Paneer Schezwan Fried Rice/Noodles",
+      "category": "Veg Chinese Rice/Noodles",
+      "is_veg": true,
+      "description": "Paneer pieces in hot Schezwan sauce mixed with fried rice or noodles, veggies, and aromatics. Intense spice level. Prepares in 20-25 minutes; fiery vegetarian Indo-Chinese delight.",
+      "fullPlate": 200,
+      "halfPlate": 110,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Veg Burnt Garlic Fried Rice/Noodles",
+      "category": "Veg Chinese Rice/Noodles",
+      "is_veg": true,
+      "description": "Burnt garlic bits for smoky flavor tossed with rice or noodles, mixed vegetables, soy sauce, and spring onions. Quick high-heat stir-fry in 15-20 minutes; bold garlic aroma and savory vegetarian comfort food.",
+      "fullPlate": 215,
+      "halfPlate": 140,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Veg Combination Rice/Noodles",
+      "category": "Veg Chinese Rice/Noodles",
+      "is_veg": true,
+      "description": "Assorted vegetables stir-fried with rice or noodles in light soy-garlic sauce, ginger, and pepper. Balanced and colorful. Cooks in 15-25 minutes; healthy, mild-flavored Indo-Chinese vegetarian meal.",
+      "fullPlate": 170,
+      "halfPlate": 85,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Veg Fried Noodles/Rice",
+      "category": "Veg Chinese Rice/Noodles",
+      "is_veg": true,
+      "description": "Classic vegetable fried rice or noodles with carrots, beans, cabbage, bell peppers, soy, and aromatics. High-heat tossed. Ready in 15-20 minutes; simple, non-spicy vegetarian staple.",
+      "fullPlate": 160,
+      "halfPlate": 85,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Veg Hong Kong Fried Rice/Noodles",
+      "category": "Veg Chinese Rice/Noodles",
+      "is_veg": true,
+      "description": "Hong Kong style veg fried rice or noodles with crisp veggies in tangy soy-vinegar sauce. Light and saucy. Takes 20-25 minutes; vibrant and mildly sweet-sour vegetarian option.",
+      "fullPlate": 180,
+      "halfPlate": 100,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Veg Manchurian Rice/Noodles",
+      "category": "Veg Chinese Rice/Noodles",
+      "is_veg": true,
+      "description": "Crispy veg Manchurian balls mixed with fried rice or noodles in garlicky, tangy sauce with veggies. Indo-Chinese fusion. Prepares in 25-35 minutes; popular sweet-spicy vegetarian dish.",
+      "fullPlate": 220,
+      "halfPlate": 165,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Veg Schezwan Fried Rice/Noodles",
+      "category": "Veg Chinese Rice/Noodles",
+      "is_veg": true,
+      "description": "Spicy Schezwan veg fried rice or noodles with chili-garlic sauce, mixed vegetables, and onions. Very hot and flavorful. Cooks in 15-25 minutes; fiery vegetarian Indo-Chinese classic.",
+      "fullPlate": 175,
+      "halfPlate": 105,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Veg Singapuri Rice/Noodles",
+      "category": "Veg Chinese Rice/Noodles",
+      "is_veg": true,
+      "description": "Singapore-style veg rice or noodles with mild curry spices, veggies, soy, and light sauce. Aromatic and slightly spiced. Takes 20-25 minutes; unique Indo-Chinese vegetarian variant.",
+      "fullPlate": 155,
+      "halfPlate": 105,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Veg Triple Schezwan Rice/Noodles",
+      "category": "Veg Chinese Rice/Noodles",
+      "is_veg": true,
+      "description": "Triple Schezwan veg rice or noodles with extra layers of spice, veggies, and sauce for intense heat. High-heat stir-fry in 20-30 minutes; bold, multi-flavored spicy vegetarian option.",
+      "fullPlate": 230,
+      "halfPlate": 170,
+      "available": true,
+      "image": "/mock-img.png"
+    },
+    {
+      "dishName": "Veg American Chop Suey",
+      "category": "Veg Chinese Rice/Noodles",
+      "is_veg": true,
+      "description": "Crispy fried noodles topped with saucy mixed vegetables, tomato-chili sauce, soy, garlic, and onions. Sweet-spicy gravy. Takes 25-35 minutes; crunchy, saucy Indo-Chinese vegetarian favorite.",
+      "fullPlate": 240,
+      "halfPlate": null,
+      "available": true,
+      "image": "/mock-img.png"
+    }
+  ]
+}
