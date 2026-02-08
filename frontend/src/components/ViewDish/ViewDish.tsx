@@ -6,7 +6,7 @@ type ViewDishProps = {
   fullPrice?: string
   stars?: number
   totalRatings?: number
-  description?: string
+  isVeg?: boolean
   heading?: boolean
   isOpen?: boolean
   onToggle?: () => void
@@ -18,7 +18,7 @@ const ViewDish = ({
   fullPrice = "FULL",
   stars = 5,
   totalRatings = 543,
-  description,
+  isVeg,
   heading = false,
   isOpen = false,
   onToggle
@@ -65,7 +65,7 @@ const ViewDish = ({
             </div>
 
             <h1>{name}</h1>
-            <p className={Styles.aboutDish}>{description}</p>
+            <p className={isVeg ? Styles.vegDish : Styles.nonVeg}>{isVeg ? "veg" : "non-veg"}</p>
           </div>
         </div>
       )}

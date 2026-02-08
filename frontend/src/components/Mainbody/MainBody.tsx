@@ -31,14 +31,11 @@ const MainBody = () => {
         />
       </div>
 
-      <br />
-      <hr />
-      <br />
-
+      {/* Table Heading */}
       <div className={styles.dishList}>
-        {/* Table Heading */}
-        <ViewDish heading />
 
+        <br />
+        <ViewDish heading />
         {/* Menu Rows */}
         {all_menus.map((item, index) => (
           <ViewDish
@@ -46,13 +43,21 @@ const MainBody = () => {
             name={item.dishName}
             fullPrice={`₹${item.fullPlate}`}
             halfPrice={`${item.halfPlate ? "₹" + item.halfPlate : "--"}`}
-            description={item.description}
+            isVeg={item.is_veg}
             isOpen={openIndex === index}
             onToggle={() =>
               setOpenIndex(prev => (prev === index ? null : index))
             }
           />
         ))}
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
     </main>
   )

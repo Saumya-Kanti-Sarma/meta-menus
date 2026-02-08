@@ -21,11 +21,12 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 42px;
-  padding: 0 16px;
+  min-height: 42px;
+  padding: 4px 16px;
   border: 1px solid var(--dark);
   border-radius: 6px;
   font-weight: 600;
+  text-align: center;
   background-color: var(--light);
 }
 
@@ -37,12 +38,12 @@
 
 .fullPrice {
   color: var(--dark);
-  min-width: 90px;
+  min-width: 40px;
 }
 
 .halfPrice {
   color: var(--dark);
-  min-width: 60px;
+  min-width: 40px;
 }
 
 .name.active,
@@ -50,7 +51,6 @@
 .halfPrice.active {
   background-color: var(--red);
   color: var(--light);
-  transform: scale(1.03);
   box-shadow: 0 6px 4px rgba(0, 0, 0, 0.123);
 }
 
@@ -68,6 +68,7 @@
   border-radius: 8px;
   padding: 16px;
   margin-top: 14px;
+  margin-bottom: 20px;
   box-shadow: 0 6px 4px rgba(0, 0, 0, 0.123);
 }
 
@@ -96,11 +97,6 @@
   color: #555;
 }
 
-.aboutDish {
-  height: 80px;
-  overflow: auto;
-}
-
 /* Ratings */
 .ratings {
   display: flex;
@@ -118,6 +114,39 @@
   color: #777;
   margin: 0;
 }
+
+/* Veg / Non-Veg Badge */
+.vegDish,
+.nonVeg {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 6px;
+}
+
+/* Green dot */
+.vegDish::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #1faa59;
+  /* veg green */
+  border-radius: 2px;
+}
+
+/* Red dot */
+.nonVeg::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #d90429;
+  /* non-veg red */
+  border-radius: 2px;
+}
+
 
 @media (max-width: 420px) {
 
