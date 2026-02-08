@@ -1,0 +1,149 @@
+.parent {
+  width: 100%;
+  margin: 0;
+  /* REMOVE vertical spacing */
+  padding: 0;
+  font-family: sans-serif;
+  color: var(--dark);
+}
+
+
+.topbar {
+  display: flex;
+  gap: 4px;
+  padding-top: 8px;
+}
+
+/* Top bar */
+.name,
+.fullPrice,
+.halfPrice {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+  padding: 0 16px;
+  border: 1px solid var(--dark);
+  border-radius: 6px;
+  font-weight: 600;
+  background-color: var(--light);
+}
+
+.name {
+  color: var(--dark);
+  min-width: 160px;
+  flex: 1;
+}
+
+.fullPrice {
+  color: var(--dark);
+  min-width: 90px;
+}
+
+.halfPrice {
+  color: var(--dark);
+  min-width: 60px;
+}
+
+.name.active,
+.fullPrice.active,
+.halfPrice.active {
+  background-color: var(--red);
+  color: var(--light);
+  transform: scale(1.03);
+  box-shadow: 0 6px 4px rgba(0, 0, 0, 0.123);
+}
+
+.name.active,
+.fullPrice.active {
+  margin-right: 8px;
+}
+
+/* Card */
+.moreInfo {
+  display: flex;
+  gap: 16px;
+  max-height: 150px;
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 14px;
+  box-shadow: 0 6px 4px rgba(0, 0, 0, 0.123);
+}
+
+/* Image */
+.moreInfo img {
+  border-radius: 6px;
+  object-fit: cover;
+  width: 40%;
+  max-width: 200px;
+}
+
+/* Details */
+.dishDetails {
+  flex: 1;
+}
+
+.dishDetails h1 {
+  margin: 6px 0 8px;
+  font-size: 20px;
+  color: var(--dark);
+}
+
+.dishDetails p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.aboutDish {
+  height: 80px;
+  overflow: auto;
+}
+
+/* Ratings */
+.ratings {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ratings span img {
+  width: 16px;
+  height: 16px;
+}
+
+.ratings p {
+  font-size: 13px;
+  color: #777;
+  margin: 0;
+}
+
+@media (max-width: 420px) {
+
+  .name,
+  .fullPrice,
+  .halfPrice {
+    padding: 0 8px;
+  }
+}
+
+@media (max-width: 380px) {
+
+  .name,
+  .fullPrice,
+  .halfPrice {
+    padding: 0;
+  }
+
+  .name {
+    min-width: 140px;
+    font-size: 12px;
+  }
+
+  .fullPrice,
+  .halfPrice {
+    min-width: 60px;
+    font-size: 12px;
+  }
+}
