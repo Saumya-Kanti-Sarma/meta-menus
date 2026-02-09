@@ -2,20 +2,27 @@ import { useState } from 'react'
 import Btn from '../../UI/Btn/Btn'
 import styles from './MainBody.module.css'
 import ViewDish from '../ViewDish/ViewDish'
-import menuData from "../../assets/demo_menu.json"
+import menuData from '../../assets/demo_menu.json'
+import Menubar from '../Menubar/Menubar'
 
 const MainBody = () => {
-  const [filterActive, setFilterActive] = useState(false)
+  const [filterActive, setFilterActive] = useState(false);
+  const [text, setText] = useState("Filter");
   const [openIndex, setOpenIndex] = useState<number | null>(null)
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  const handleBtnOnClick = () => {
+  const handleToggleMenu = () => {
+    setIsMenuOpen(prev => !prev)
     setFilterActive(prev => !prev)
+    setText((prev) => prev == "Filter" ? "Close" : "Filter");
   }
 
   const all_menus = menuData.menu
 
   return (
     <main className={styles.main}>
+      <Menubar isOpen={isMenuOpen} toggleMenu={handleToggleMenu} />
+
       <div className={styles.searchArea}>
         <div className={styles.searchBox}>
           <input type="text" placeholder="Search here..." />
@@ -25,24 +32,24 @@ const MainBody = () => {
         </div>
 
         <Btn
-          text="Filter"
-          className={`${styles.btn} ${filterActive ? styles.active : ""}`}
-          onClick={handleBtnOnClick}
+          text={text}
+          className={`${styles.btn} ${filterActive ? styles.active : ''}`}
+          onClick={handleToggleMenu}
         />
       </div>
 
       {/* Table Heading */}
       <div className={styles.dishList}>
-
         <br />
         <ViewDish heading />
+
         {/* Menu Rows */}
         {all_menus.map((item, index) => (
           <ViewDish
             key={index}
             name={item.dishName}
             fullPrice={`₹${item.fullPlate}`}
-            halfPrice={`${item.halfPlate ? "₹" + item.halfPlate : "--"}`}
+            halfPrice={item.halfPlate ? `₹${item.halfPlate}` : '--'}
             isVeg={item.is_veg}
             isOpen={openIndex === index}
             onToggle={() =>
@@ -50,14 +57,8 @@ const MainBody = () => {
             }
           />
         ))}
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+
+        <br /><br /><br /><br /><br /><br /><br /><br />
       </div>
     </main>
   )

@@ -4,13 +4,13 @@
   align-items: center;
   justify-content: start;
   width: calc(100% - 20px);
-  margin-top: 5px;
   padding: 0;
   padding-left: 10px;
   padding-right: 15px;
   height: calc(100dvh - 155px);
   /* background-color: orange; */
   overflow: auto;
+  position: relative;
 }
 
 @media (max-width: 768px) {
@@ -20,6 +20,7 @@
 }
 
 .searchArea {
+  margin-top: 5px;
   display: flex;
   width: 100%;
   height: 90px;

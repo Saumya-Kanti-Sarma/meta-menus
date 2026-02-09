@@ -1,9 +1,17 @@
-// import styles from "./Menubar.module.css";
-const Menubar = () => {
+import styles from './Menubar.module.css'
+
+interface MenubarProps {
+  isOpen: boolean;
+  toggleMenu: () => void;
+}
+
+const Menubar = ({ isOpen, toggleMenu }: MenubarProps) => {
   return (
-    <>
-      Menubar component
-    </>
+    <aside className={styles.aside} style={{
+      left: isOpen ? "0" : "-100%"
+    }}>
+      hii
+    </aside>
   )
 }
 

@@ -1,0 +1,10 @@
+.aside {
+  width: 100%;
+  height: calc(100dvh - 100px);
+  background-color: var(--gray1);
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 60px;
+  transition: 0.22s ease-in-out;
+}
