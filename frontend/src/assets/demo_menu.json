@@ -8,7 +8,9 @@
       "fullPlate": 685,
       "halfPlate": 375,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Durwa Spl Chicken",
@@ -18,7 +20,9 @@
       "fullPlate": 660,
       "halfPlate": 374,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Malwani Handi",
@@ -28,7 +32,9 @@
       "fullPlate": 575,
       "halfPlate": 335,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Fry Chicken Malwani Handi",
@@ -38,7 +44,9 @@
       "fullPlate": 595,
       "halfPlate": 355,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Lapeta",
@@ -48,7 +56,9 @@
       "fullPlate": 530,
       "halfPlate": 290,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Butter Chicken With Bone",
@@ -58,7 +68,9 @@
       "fullPlate": 450,
       "halfPlate": 260,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Butter Chicken Boneless",
@@ -68,7 +80,9 @@
       "fullPlate": 430,
       "halfPlate": 240,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Smoke (Chef Special)",
@@ -78,7 +92,9 @@
       "fullPlate": 270,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Sauji (Spicy)",
@@ -88,7 +104,9 @@
       "fullPlate": 220,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Kharda Masala",
@@ -98,7 +116,9 @@
       "fullPlate": 220,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Afghani Chicken Malai Masala",
@@ -108,7 +128,9 @@
       "fullPlate": 235,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Mughlai (Boneless)",
@@ -118,7 +140,9 @@
       "fullPlate": 250,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Bhuna (Boneless)",
@@ -128,7 +152,9 @@
       "fullPlate": 230,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Kolhapuri",
@@ -138,7 +164,9 @@
       "fullPlate": 210,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Leg Masala",
@@ -148,7 +176,9 @@
       "fullPlate": 220,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Sukka",
@@ -158,7 +188,9 @@
       "fullPlate": 210,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Pahadi Masala",
@@ -168,7 +200,9 @@
       "fullPlate": 220,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Rara",
@@ -178,7 +212,9 @@
       "fullPlate": 250,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Tikka Masala (Boneless)",
@@ -188,7 +224,9 @@
       "fullPlate": 220,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Keema (Boneless)",
@@ -198,7 +236,9 @@
       "fullPlate": 230,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Lababdar Chicken",
@@ -208,7 +248,9 @@
       "fullPlate": 230,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Jalfrezi",
@@ -218,7 +260,9 @@
       "fullPlate": 230,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Masala",
@@ -228,7 +272,9 @@
       "fullPlate": 195,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Curry",
@@ -238,7 +284,9 @@
       "fullPlate": 185,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Liver Sukka",
@@ -248,7 +296,9 @@
       "fullPlate": 170,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Mutton Malwani Handi",
@@ -258,7 +308,9 @@
       "fullPlate": 790,
       "halfPlate": 430,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Mutton Kadal",
@@ -268,7 +320,9 @@
       "fullPlate": 320,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Mutton Kheema",
@@ -278,7 +332,9 @@
       "fullPlate": 350,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Mutton Adrak",
@@ -288,7 +344,9 @@
       "fullPlate": 320,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Mutton Tawa",
@@ -298,7 +356,9 @@
       "fullPlate": 310,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Mutton Kolhapuri",
@@ -308,7 +368,9 @@
       "fullPlate": 310,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Mutton Sukka",
@@ -318,7 +380,9 @@
       "fullPlate": 310,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Mutton Rogan Josh",
@@ -328,7 +392,9 @@
       "fullPlate": 320,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Mutton Masala",
@@ -338,7 +404,9 @@
       "fullPlate": 290,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Bangda",
@@ -348,7 +416,9 @@
       "fullPlate": 450,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Bombil",
@@ -358,7 +428,9 @@
       "fullPlate": 452,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Surmai",
@@ -368,7 +440,9 @@
       "fullPlate": 421,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Pomfret",
@@ -378,7 +452,9 @@
       "fullPlate": 128,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Prawns",
@@ -388,7 +464,9 @@
       "fullPlate": 144,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Chilli Noodle/Rice",
@@ -398,7 +476,9 @@
       "fullPlate": 250,
       "halfPlate": 170,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Combination Noodles/Rice",
@@ -408,7 +488,9 @@
       "fullPlate": 190,
       "halfPlate": 120,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Fried Rice/Hakka Noodles",
@@ -418,7 +500,9 @@
       "fullPlate": 190,
       "halfPlate": 120,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Hong Kong Rice/Noodles",
@@ -428,7 +512,9 @@
       "fullPlate": 200,
       "halfPlate": 130,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Manchurian Noodles/Rice",
@@ -438,7 +524,9 @@
       "fullPlate": 250,
       "halfPlate": 170,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Schezwan Noodles/Rice",
@@ -448,7 +536,9 @@
       "fullPlate": 210,
       "halfPlate": 140,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Triple Fried Rice",
@@ -458,7 +548,9 @@
       "fullPlate": 260,
       "halfPlate": 175,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Singapuri Rice/Noodles",
@@ -468,7 +560,9 @@
       "fullPlate": 210,
       "halfPlate": 140,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Burnt Garlic Rice/Noodles",
@@ -478,7 +572,9 @@
       "fullPlate": 230,
       "halfPlate": 150,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Pot Rice",
@@ -488,7 +584,9 @@
       "fullPlate": 260,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Egg Fried Rice/Noodles",
@@ -498,7 +596,9 @@
       "fullPlate": 130,
       "halfPlate": 90,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Egg Schezwan Fried Rice/Noodles",
@@ -508,7 +608,9 @@
       "fullPlate": 140,
       "halfPlate": 95,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Mix Fried Rice",
@@ -518,7 +620,9 @@
       "fullPlate": 250,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Prawn Schezwan Noodle/Rice",
@@ -528,7 +632,9 @@
       "fullPlate": 350,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Prawns Noodles/Rice",
@@ -538,7 +644,9 @@
       "fullPlate": 345,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Prawns Schezwan Fried Rice/Noodles",
@@ -548,7 +656,9 @@
       "fullPlate": 340,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken American Chop Suey",
@@ -558,7 +668,9 @@
       "fullPlate": 260,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Thousand Rice/Noodles",
@@ -568,7 +680,9 @@
       "fullPlate": 320,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Special Veg Thali",
@@ -578,7 +692,9 @@
       "fullPlate": 180,
       "halfPlate": 170,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Mini Veg Thali",
@@ -588,7 +704,9 @@
       "fullPlate": 120,
       "halfPlate": 110,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Egg Kolhapuri Thali",
@@ -598,7 +716,9 @@
       "fullPlate": 260,
       "halfPlate": 250,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Kolhapuri Thali",
@@ -608,7 +728,9 @@
       "fullPlate": 260,
       "halfPlate": 180,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Mutton Kolhapuri Thali",
@@ -618,7 +740,9 @@
       "fullPlate": 350,
       "halfPlate": 340,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Bombil Thali",
@@ -628,7 +752,9 @@
       "fullPlate": 400,
       "halfPlate": 200,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Prawns Thali",
@@ -638,7 +764,9 @@
       "fullPlate": 400,
       "halfPlate": 200,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Surmai Thali",
@@ -648,7 +776,9 @@
       "fullPlate": 400,
       "halfPlate": 200,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Pomfret Thali",
@@ -658,7 +788,9 @@
       "fullPlate": 400,
       "halfPlate": 200,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Tawa Chicken Pulav",
@@ -668,7 +800,9 @@
       "fullPlate": 200,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Dum Biryani",
@@ -678,7 +812,9 @@
       "fullPlate": 230,
       "halfPlate": 150,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Chicken Tikka Biryani",
@@ -688,7 +824,9 @@
       "fullPlate": 240,
       "halfPlate": 155,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Hyderabadi Chicken Biryani",
@@ -698,7 +836,9 @@
       "fullPlate": 250,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Tandoori Chicken Biryani",
@@ -708,7 +848,9 @@
       "fullPlate": 240,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Egg Biryani",
@@ -718,7 +860,9 @@
       "fullPlate": 195,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Prawns Biryani",
@@ -728,7 +872,9 @@
       "fullPlate": 250,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Mushroom Biryani",
@@ -738,7 +884,9 @@
       "fullPlate": 210,
       "halfPlate": 145,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Mutton Biryani",
@@ -748,7 +896,9 @@
       "fullPlate": 370,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Paneer Biryani",
@@ -758,7 +908,9 @@
       "fullPlate": 200,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Paneer Tikka Biryani",
@@ -768,7 +920,9 @@
       "fullPlate": 215,
       "halfPlate": 145,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Veg Dum Biryani",
@@ -778,7 +932,9 @@
       "fullPlate": 180,
       "halfPlate": 125,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Mushroom Fried Rice/Noodles",
@@ -788,7 +944,9 @@
       "fullPlate": 190,
       "halfPlate": 125,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Mushroom Schezwan Fried Rice/Noodles",
@@ -798,7 +956,9 @@
       "fullPlate": 210,
       "halfPlate": 135,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Paneer Chilli Rice/Noodles",
@@ -808,7 +968,9 @@
       "fullPlate": 240,
       "halfPlate": 185,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Paneer Schezwan Fried Rice/Noodles",
@@ -818,7 +980,9 @@
       "fullPlate": 200,
       "halfPlate": 110,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Veg Burnt Garlic Fried Rice/Noodles",
@@ -828,7 +992,9 @@
       "fullPlate": 215,
       "halfPlate": 140,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Veg Combination Rice/Noodles",
@@ -838,7 +1004,9 @@
       "fullPlate": 170,
       "halfPlate": 85,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Veg Fried Noodles/Rice",
@@ -848,7 +1016,9 @@
       "fullPlate": 160,
       "halfPlate": 85,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Veg Hong Kong Fried Rice/Noodles",
@@ -858,7 +1028,9 @@
       "fullPlate": 180,
       "halfPlate": 100,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Veg Manchurian Rice/Noodles",
@@ -868,7 +1040,9 @@
       "fullPlate": 220,
       "halfPlate": 165,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Veg Schezwan Fried Rice/Noodles",
@@ -878,7 +1052,9 @@
       "fullPlate": 175,
       "halfPlate": 105,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Veg Singapuri Rice/Noodles",
@@ -888,7 +1064,9 @@
       "fullPlate": 155,
       "halfPlate": 105,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Veg Triple Schezwan Rice/Noodles",
@@ -898,7 +1076,9 @@
       "fullPlate": 230,
       "halfPlate": 170,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     },
     {
       "dishName": "Veg American Chop Suey",
@@ -908,7 +1088,9 @@
       "fullPlate": 240,
       "halfPlate": null,
       "available": true,
-      "image": "/mock-img.png"
+      "image": "/mock-img.png",
+      "ratings": 543,
+      "stars": 4
     }
   ]
 }

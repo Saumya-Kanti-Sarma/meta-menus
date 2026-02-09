@@ -8,6 +8,7 @@
   top: 60px;
   transition: 0.22s ease-in-out;
   padding-left: 10px;
+  padding-right: 10px;
 }
 
 .aside h1 {
@@ -24,6 +25,7 @@
 
 .btns {
   border: none;
+  background-color: var(--gray2);
 }
 
 .btns.active {
