@@ -21,7 +21,7 @@ const MainBody = () => {
 
   return (
     <main className={styles.main}>
-      <Menubar isOpen={isMenuOpen} toggleMenu={handleToggleMenu} />
+      <Menubar isOpen={isMenuOpen} />
 
       <div className={styles.searchArea}>
         <div className={styles.searchBox}>
