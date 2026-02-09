@@ -1,5 +1,5 @@
 .aside {
-  width: 100%;
+  width: calc(100% - 10px);
   height: calc(100dvh - 100px);
   background-color: var(--gray1);
   position: absolute;
@@ -7,4 +7,30 @@
   left: 0;
   top: 60px;
   transition: 0.22s ease-in-out;
+  padding-left: 10px;
+}
+
+.aside h1 {
+  font-size: 24px;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-self: start;
+}
+
+.btns {
+  border: none;
+}
+
+.btns.active {
+  border: none;
+  background-color: var(--red);
+  padding: 8px;
+  color: var(--light);
+  border-radius: 4px;
+  box-shadow: 0 6px 4px rgba(0, 0, 0, 0.123);
 }
