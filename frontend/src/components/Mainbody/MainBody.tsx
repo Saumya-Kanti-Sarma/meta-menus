@@ -11,8 +11,7 @@ const MainBody = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // 🔥 FILTER STATE (lifted)
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  // 🔥 FILTER STATE
   const [selectedFilter, setSelectedFilter] = useState<string | null>(null);
 
   const handleToggleMenu = () => {
@@ -23,18 +22,23 @@ const MainBody = () => {
 
   const all_menus = menuData.menu;
 
-  // 🔥 FILTER LOGIC
+  // 🔥 FILTER + SORT LOGIC
   const filteredMenus = useMemo(() => {
     let menus = [...all_menus];
 
-    // category filter
-    if (selectedCategory) {
-      menus = menus.filter(
-        item => item.category === selectedCategory
-      );
+    // 🥦 Veg / Non-veg filter
+    if (selectedFilter === "Veg") {
+      menus = menus.filter(item => item.is_veg === true);
+    }
+    if (selectedFilter === "Clear") {
+      menus = [...all_menus];
     }
 
-    // sorting filter
+    if (selectedFilter === "Non veg") {
+      menus = menus.filter(item => item.is_veg === false);
+    }
+
+    // 🔃 Sorting
     if (selectedFilter === "Low to high") {
       menus.sort((a, b) => a.fullPlate - b.fullPlate);
     }
@@ -48,16 +52,10 @@ const MainBody = () => {
     }
 
     return menus;
-  }, [all_menus, selectedCategory, selectedFilter]);
+  }, [all_menus, selectedFilter]);
 
   return (
     <main className={styles.main}>
-      <Menubar
-        isOpen={isMenuOpen}
-        onCategoryChange={setSelectedCategory}
-        onFilterChange={setSelectedFilter}
-      />
-
       <div className={styles.searchArea}>
         <div className={styles.searchBox}>
           <input type="text" placeholder="Search here..." />
@@ -88,11 +86,23 @@ const MainBody = () => {
             onToggle={() =>
               setOpenIndex(prev => (prev === index ? null : index))
             }
+            handleHideMoreInfo={() => setOpenIndex(null)}
           />
         ))}
 
         <br /><br /><br /><br /><br />
       </div>
+
+      <Menubar
+        onBodyClick={() => {
+          setIsMenuOpen(false);
+          setFilterActive(false)
+          setText("Filter")
+        }}
+        isOpen={isMenuOpen}
+        onCategoryChange={() => { }} // not used anymore
+        onFilterChange={setSelectedFilter}
+      />
     </main>
   );
 };

@@ -59,17 +59,36 @@
   margin-right: 8px;
 }
 
+.heading {
+  background-color: var(--gray2);
+}
+
 /* Card */
 .moreInfo {
   display: flex;
   gap: 16px;
-  max-height: 150px;
+  max-height: 0px;
   background: white;
+  box-shadow: 0 6px 4px rgba(0, 0, 0, 0.123);
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(-8px);
+  transition:
+    max-height 0.35s ease,
+    opacity 0.25s ease,
+    transform 0.25s ease;
+}
+
+.moreInfoOpen {
   border-radius: 8px;
   padding: 16px;
   margin-top: 14px;
   margin-bottom: 20px;
-  box-shadow: 0 6px 4px rgba(0, 0, 0, 0.123);
+  max-height: 400px;
+  /* must be bigger than content */
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* Image */
@@ -145,6 +164,42 @@
   background-color: #d90429;
   /* non-veg red */
   border-radius: 2px;
+}
+
+.thumbnail {
+  cursor: zoom-in;
+}
+
+/* Overlay */
+.imageOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+/* Enlarged image */
+.enlargedImage {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 12px;
+  cursor: zoom-out;
+  animation: zoomIn 0.25s ease;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 

@@ -1,5 +1,5 @@
 .aside {
-  width: calc(100% - 10px);
+  width: calc(100% - 20px);
   height: calc(100dvh - 100px);
   background-color: var(--gray1);
   position: absolute;
@@ -16,19 +16,20 @@
 }
 
 .categories {
-  display: flex;
-  flex-wrap: wrap;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 10px;
   align-items: center;
-  justify-self: start;
 }
 
-.btns {
+
+.filterBtns {
   border: none;
   background-color: var(--gray2);
 }
 
-.btns.active {
+.filterBtns.active {
   border: none;
   background-color: var(--red);
   padding: 8px;
